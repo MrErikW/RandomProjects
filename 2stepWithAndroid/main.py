@@ -4,8 +4,6 @@ import tkinter as tk
 from tkinter import messagebox
 a = random.randint(10000, 99999)
 
-# try1 = requests.get(f'https://trigger.macrodroid.com/fdb98500-31dc-483c-bf28-bf75661c63ba/sui?number=53840941&verifycode={a}')
-
 win = tk.Tk()
 win.geometry('500x500')
 win.resizable(False, False)
